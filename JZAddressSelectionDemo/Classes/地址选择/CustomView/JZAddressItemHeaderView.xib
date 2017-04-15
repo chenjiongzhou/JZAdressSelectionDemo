@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16F43c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JZAddressItemHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="41"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dPW-vJ-OcM">
+                    <rect key="frame" x="0.0" y="0.0" width="428" height="41"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjs-gn-skF">
+                    <rect key="frame" x="15" y="12" width="36" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="rjs-gn-skF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="3hT-tR-Lub"/>
+                <constraint firstItem="rjs-gn-skF" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="7t3-LQ-AKq"/>
+                <constraint firstItem="dPW-vJ-OcM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="DFE-kb-0qH"/>
+                <constraint firstAttribute="trailing" secondItem="dPW-vJ-OcM" secondAttribute="trailing" id="PUf-3b-zAR"/>
+                <constraint firstAttribute="bottom" secondItem="dPW-vJ-OcM" secondAttribute="bottom" id="mfj-H8-XIg"/>
+                <constraint firstItem="dPW-vJ-OcM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qim-6d-tLv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="titleLabel" destination="rjs-gn-skF" id="yUa-ds-yLG"/>
+            </connections>
+            <point key="canvasLocation" x="-92" y="356.5"/>
+        </view>
+    </objects>
+</document>

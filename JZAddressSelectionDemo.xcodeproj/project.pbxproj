@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9DA45991E9E1FB500312EC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45981E9E1FB500312EC6 /* main.m */; };
+		A9DA459C1E9E1FB500312EC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA459B1E9E1FB500312EC6 /* AppDelegate.m */; };
+		A9DA459F1E9E1FB500312EC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA459E1E9E1FB500312EC6 /* ViewController.m */; };
+		A9DA45A21E9E1FB500312EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DA45A01E9E1FB500312EC6 /* Main.storyboard */; };
+		A9DA45A41E9E1FB500312EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DA45A31E9E1FB500312EC6 /* Assets.xcassets */; };
+		A9DA45A71E9E1FB500312EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DA45A51E9E1FB500312EC6 /* LaunchScreen.storyboard */; };
+		A9DA45BB1E9E21CA00312EC6 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9DA45B91E9E21CA00312EC6 /* city.plist */; };
+		A9DA45BC1E9E21CA00312EC6 /* citydata.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9DA45BA1E9E21CA00312EC6 /* citydata.plist */; };
+		A9DA45C11E9E21DD00312EC6 /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45BE1E9E21DD00312EC6 /* UIColor+CustomColor.m */; };
+		A9DA45C21E9E21DD00312EC6 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45C01E9E21DD00312EC6 /* UIView+Size.m */; };
+		A9DA45C61E9E230B00312EC6 /* JZAddressMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45C51E9E230B00312EC6 /* JZAddressMainController.m */; };
+		A9DA45C91E9E23F300312EC6 /* JZAddressInternalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45C81E9E23F300312EC6 /* JZAddressInternalTableView.m */; };
+		A9DA45CC1E9E24EC00312EC6 /* JZAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45CB1E9E24EC00312EC6 /* JZAddressModel.m */; };
+		A9DA45CF1E9E2A1D00312EC6 /* JZSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45CE1E9E2A1D00312EC6 /* JZSegmentedControl.m */; };
+		A9DA45D21E9E333D00312EC6 /* JZCityItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45D11E9E333D00312EC6 /* JZCityItemCell.m */; };
+		A9DA45D51E9E3F7C00312EC6 /* JZAddressTopHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45D41E9E3F7C00312EC6 /* JZAddressTopHeaderView.m */; };
+		A9DA45D81E9E3F9500312EC6 /* JZAddressItemHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45D71E9E3F9500312EC6 /* JZAddressItemHeaderView.m */; };
+		A9DA45DA1E9E3FA300312EC6 /* JZAddressItemHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9DA45D91E9E3FA300312EC6 /* JZAddressItemHeaderView.xib */; };
+		A9DA45DC1E9E403300312EC6 /* JZAddressTopHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9DA45DB1E9E403300312EC6 /* JZAddressTopHeaderView.xib */; };
+		A9DA45DF1E9E7F2400312EC6 /* JZSearchShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45DE1E9E7F2400312EC6 /* JZSearchShadowView.m */; };
+		A9DA45E71E9EC48400312EC6 /* overseas.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9DA45E61E9EC48400312EC6 /* overseas.plist */; };
+		A9DA45EA1E9ECB8E00312EC6 /* JZAddressOverseasTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45E91E9ECB8E00312EC6 /* JZAddressOverseasTableView.m */; };
+		A9DA45F01E9F10E300312EC6 /* JZCityItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DA45EF1E9F10E300312EC6 /* JZCityItemsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9DA45941E9E1FB500312EC6 /* JZAddressSelectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZAddressSelectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DA45981E9E1FB500312EC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9DA459A1E9E1FB500312EC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9DA459B1E9E1FB500312EC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9DA459D1E9E1FB500312EC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9DA459E1E9E1FB500312EC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9DA45A11E9E1FB500312EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9DA45A31E9E1FB500312EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9DA45A61E9E1FB500312EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9DA45A81E9E1FB500312EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DA45B91E9E21CA00312EC6 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		A9DA45BA1E9E21CA00312EC6 /* citydata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydata.plist; sourceTree = "<group>"; };
+		A9DA45BD1E9E21DD00312EC6 /* UIColor+CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColor.h"; sourceTree = "<group>"; };
+		A9DA45BE1E9E21DD00312EC6 /* UIColor+CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColor.m"; sourceTree = "<group>"; };
+		A9DA45BF1E9E21DD00312EC6 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		A9DA45C01E9E21DD00312EC6 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		A9DA45C31E9E225200312EC6 /* JZAddressHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZAddressHeader.pch; sourceTree = "<group>"; };
+		A9DA45C41E9E230B00312EC6 /* JZAddressMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZAddressMainController.h; sourceTree = "<group>"; };
+		A9DA45C51E9E230B00312EC6 /* JZAddressMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZAddressMainController.m; sourceTree = "<group>"; };
+		A9DA45C71E9E23F300312EC6 /* JZAddressInternalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZAddressInternalTableView.h; sourceTree = "<group>"; };
+		A9DA45C81E9E23F300312EC6 /* JZAddressInternalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZAddressInternalTableView.m; sourceTree = "<group>"; };
+		A9DA45CA1E9E24EC00312EC6 /* JZAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZAddressModel.h; sourceTree = "<group>"; };
+		A9DA45CB1E9E24EC00312EC6 /* JZAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZAddressModel.m; sourceTree = "<group>"; };
+		A9DA45CD1E9E2A1D00312EC6 /* JZSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZSegmentedControl.h; sourceTree = "<group>"; };
+		A9DA45CE1E9E2A1D00312EC6 /* JZSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZSegmentedControl.m; sourceTree = "<group>"; };
+		A9DA45D01E9E333D00312EC6 /* JZCityItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCityItemCell.h; sourceTree = "<group>"; };
+		A9DA45D11E9E333D00312EC6 /* JZCityItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZCityItemCell.m; sourceTree = "<group>"; };
+		A9DA45D31E9E3F7C00312EC6 /* JZAddressTopHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZAddressTopHeaderView.h; sourceTree = "<group>"; };
+		A9DA45D41E9E3F7C00312EC6 /* JZAddressTopHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZAddressTopHeaderView.m; sourceTree = "<group>"; };
+		A9DA45D61E9E3F9500312EC6 /* JZAddressItemHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZAddressItemHeaderView.h; sourceTree = "<group>"; };
+		A9DA45D71E9E3F9500312EC6 /* JZAddressItemHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZAddressItemHeaderView.m; sourceTree = "<group>"; };
+		A9DA45D91E9E3FA300312EC6 /* JZAddressItemHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZAddressItemHeaderView.xib; sourceTree = "<group>"; };
+		A9DA45DB1E9E403300312EC6 /* JZAddressTopHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZAddressTopHeaderView.xib; sourceTree = "<group>"; };
+		A9DA45DD1E9E7F2400312EC6 /* JZSearchShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZSearchShadowView.h; sourceTree = "<group>"; };
+		A9DA45DE1E9E7F2400312EC6 /* JZSearchShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZSearchShadowView.m; sourceTree = "<group>"; };
+		A9DA45E61E9EC48400312EC6 /* overseas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = overseas.plist; sourceTree = "<group>"; };
+		A9DA45E81E9ECB8E00312EC6 /* JZAddressOverseasTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZAddressOverseasTableView.h; sourceTree = "<group>"; };
+		A9DA45E91E9ECB8E00312EC6 /* JZAddressOverseasTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZAddressOverseasTableView.m; sourceTree = "<group>"; };
+		A9DA45EE1E9F10E300312EC6 /* JZCityItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCityItemsView.h; sourceTree = "<group>"; };
+		A9DA45EF1E9F10E300312EC6 /* JZCityItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZCityItemsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DA45911E9E1FB500312EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9DA458B1E9E1FB500312EC6 = {
+			isa = PBXGroup;
+			children = (
+				A9DA45961E9E1FB500312EC6 /* JZAddressSelectionDemo */,
+				A9DA45951E9E1FB500312EC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DA45951E9E1FB500312EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA45941E9E1FB500312EC6 /* JZAddressSelectionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9DA45961E9E1FB500312EC6 /* JZAddressSelectionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA45B31E9E219900312EC6 /* Classes */,
+				A9DA459A1E9E1FB500312EC6 /* AppDelegate.h */,
+				A9DA459B1E9E1FB500312EC6 /* AppDelegate.m */,
+				A9DA459D1E9E1FB500312EC6 /* ViewController.h */,
+				A9DA459E1E9E1FB500312EC6 /* ViewController.m */,
+				A9DA45A01E9E1FB500312EC6 /* Main.storyboard */,
+				A9DA45A31E9E1FB500312EC6 /* Assets.xcassets */,
+				A9DA45A51E9E1FB500312EC6 /* LaunchScreen.storyboard */,
+				A9DA45A81E9E1FB500312EC6 /* Info.plist */,
+				A9DA45971E9E1FB500312EC6 /* Supporting Files */,
+			);
+			path = JZAddressSelectionDemo;
+			sourceTree = "<group>";
+		};
+		A9DA45971E9E1FB500312EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA45E61E9EC48400312EC6 /* overseas.plist */,
+				A9DA45B91E9E21CA00312EC6 /* city.plist */,
+				A9DA45BA1E9E21CA00312EC6 /* citydata.plist */,
+				A9DA45981E9E1FB500312EC6 /* main.m */,
+				A9DA45C31E9E225200312EC6 /* JZAddressHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9DA45B31E9E219900312EC6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA45B51E9E219900312EC6 /* 地址选择 */,
+				A9DA45B41E9E219900312EC6 /* Category */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A9DA45B41E9E219900312EC6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA45BD1E9E21DD00312EC6 /* UIColor+CustomColor.h */,
+				A9DA45BE1E9E21DD00312EC6 /* UIColor+CustomColor.m */,
+				A9DA45BF1E9E21DD00312EC6 /* UIView+Size.h */,
+				A9DA45C01E9E21DD00312EC6 /* UIView+Size.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A9DA45B51E9E219900312EC6 /* 地址选择 */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA45C41E9E230B00312EC6 /* JZAddressMainController.h */,
+				A9DA45C51E9E230B00312EC6 /* JZAddressMainController.m */,
+				A9DA45B71E9E219900312EC6 /* CustomView */,
+				A9DA45B61E9E219900312EC6 /* Cell */,
+				A9DA45B81E9E219900312EC6 /* DataModel */,
+			);
+			path = "地址选择";
+			sourceTree = "<group>";
+		};
+		A9DA45B61E9E219900312EC6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA45D01E9E333D00312EC6 /* JZCityItemCell.h */,
+				A9DA45D11E9E333D00312EC6 /* JZCityItemCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A9DA45B71E9E219900312EC6 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA45C71E9E23F300312EC6 /* JZAddressInternalTableView.h */,
+				A9DA45C81E9E23F300312EC6 /* JZAddressInternalTableView.m */,
+				A9DA45E81E9ECB8E00312EC6 /* JZAddressOverseasTableView.h */,
+				A9DA45E91E9ECB8E00312EC6 /* JZAddressOverseasTableView.m */,
+				A9DA45CD1E9E2A1D00312EC6 /* JZSegmentedControl.h */,
+				A9DA45CE1E9E2A1D00312EC6 /* JZSegmentedControl.m */,
+				A9DA45D31E9E3F7C00312EC6 /* JZAddressTopHeaderView.h */,
+				A9DA45D41E9E3F7C00312EC6 /* JZAddressTopHeaderView.m */,
+				A9DA45DB1E9E403300312EC6 /* JZAddressTopHeaderView.xib */,
+				A9DA45D61E9E3F9500312EC6 /* JZAddressItemHeaderView.h */,
+				A9DA45D71E9E3F9500312EC6 /* JZAddressItemHeaderView.m */,
+				A9DA45D91E9E3FA300312EC6 /* JZAddressItemHeaderView.xib */,
+				A9DA45DD1E9E7F2400312EC6 /* JZSearchShadowView.h */,
+				A9DA45DE1E9E7F2400312EC6 /* JZSearchShadowView.m */,
+				A9DA45EE1E9F10E300312EC6 /* JZCityItemsView.h */,
+				A9DA45EF1E9F10E300312EC6 /* JZCityItemsView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		A9DA45B81E9E219900312EC6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA45CA1E9E24EC00312EC6 /* JZAddressModel.h */,
+				A9DA45CB1E9E24EC00312EC6 /* JZAddressModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DA45931E9E1FB500312EC6 /* JZAddressSelectionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DA45AB1E9E1FB500312EC6 /* Build configuration list for PBXNativeTarget "JZAddressSelectionDemo" */;
+			buildPhases = (
+				A9DA45901E9E1FB500312EC6 /* Sources */,
+				A9DA45911E9E1FB500312EC6 /* Frameworks */,
+				A9DA45921E9E1FB500312EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZAddressSelectionDemo;
+			productName = JZAddressSelectionDemo;
+			productReference = A9DA45941E9E1FB500312EC6 /* JZAddressSelectionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DA458C1E9E1FB500312EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Chenjz;
+				TargetAttributes = {
+					A9DA45931E9E1FB500312EC6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2PV42W872F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A9DA458F1E9E1FB500312EC6 /* Build configuration list for PBXProject "JZAddressSelectionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9DA458B1E9E1FB500312EC6;
+			productRefGroup = A9DA45951E9E1FB500312EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DA45931E9E1FB500312EC6 /* JZAddressSelectionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DA45921E9E1FB500312EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DA45E71E9EC48400312EC6 /* overseas.plist in Resources */,
+				A9DA45DC1E9E403300312EC6 /* JZAddressTopHeaderView.xib in Resources */,
+				A9DA45BC1E9E21CA00312EC6 /* citydata.plist in Resources */,
+				A9DA45DA1E9E3FA300312EC6 /* JZAddressItemHeaderView.xib in Resources */,
+				A9DA45A71E9E1FB500312EC6 /* LaunchScreen.storyboard in Resources */,
+				A9DA45BB1E9E21CA00312EC6 /* city.plist in Resources */,
+				A9DA45A41E9E1FB500312EC6 /* Assets.xcassets in Resources */,
+				A9DA45A21E9E1FB500312EC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DA45901E9E1FB500312EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DA459F1E9E1FB500312EC6 /* ViewController.m in Sources */,
+				A9DA45C21E9E21DD00312EC6 /* UIView+Size.m in Sources */,
+				A9DA459C1E9E1FB500312EC6 /* AppDelegate.m in Sources */,
+				A9DA45D51E9E3F7C00312EC6 /* JZAddressTopHeaderView.m in Sources */,
+				A9DA45DF1E9E7F2400312EC6 /* JZSearchShadowView.m in Sources */,
+				A9DA45C91E9E23F300312EC6 /* JZAddressInternalTableView.m in Sources */,
+				A9DA45D81E9E3F9500312EC6 /* JZAddressItemHeaderView.m in Sources */,
+				A9DA45C11E9E21DD00312EC6 /* UIColor+CustomColor.m in Sources */,
+				A9DA45991E9E1FB500312EC6 /* main.m in Sources */,
+				A9DA45CC1E9E24EC00312EC6 /* JZAddressModel.m in Sources */,
+				A9DA45EA1E9ECB8E00312EC6 /* JZAddressOverseasTableView.m in Sources */,
+				A9DA45F01E9F10E300312EC6 /* JZCityItemsView.m in Sources */,
+				A9DA45D21E9E333D00312EC6 /* JZCityItemCell.m in Sources */,
+				A9DA45C61E9E230B00312EC6 /* JZAddressMainController.m in Sources */,
+				A9DA45CF1E9E2A1D00312EC6 /* JZSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9DA45A01E9E1FB500312EC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DA45A11E9E1FB500312EC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9DA45A51E9E1FB500312EC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DA45A61E9E1FB500312EC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9DA45A91E9E1FB500312EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9DA45AA1E9E1FB500312EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9DA45AC1E9E1FB500312EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PV42W872F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/jiong23/Desktop/JZAddressSelectionDemo/JZAddressSelectionDemo/JZAddressHeader.pch;
+				INFOPLIST_FILE = JZAddressSelectionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JZ.JZAddressSelectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9DA45AD1E9E1FB500312EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PV42W872F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/jiong23/Desktop/JZAddressSelectionDemo/JZAddressSelectionDemo/JZAddressHeader.pch;
+				INFOPLIST_FILE = JZAddressSelectionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JZ.JZAddressSelectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DA458F1E9E1FB500312EC6 /* Build configuration list for PBXProject "JZAddressSelectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DA45A91E9E1FB500312EC6 /* Debug */,
+				A9DA45AA1E9E1FB500312EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DA45AB1E9E1FB500312EC6 /* Build configuration list for PBXNativeTarget "JZAddressSelectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DA45AC1E9E1FB500312EC6 /* Debug */,
+				A9DA45AD1E9E1FB500312EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9DA458C1E9E1FB500312EC6 /* Project object */;
+}
